@@ -1,0 +1,516 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+/* header-section */
+.nav
+{
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color:rgb(162,0,37);
+  /* background-image:linear-gradient(to right, rgb(162,0,37),rgb(96,169,23)); */
+}
+
+.nav li i
+{
+    font-size: 4rem;
+}
+
+.nav li i:hover
+{
+    transform: scale(1.2);
+    border: 1px solid rgb(162,0,37);
+    transition: 1s ease-in-out;
+}
+
+.nav li button
+{
+    font-size: 1.5rem;
+    border: 1px solid rgb(162,0,37);
+    outline: none;
+    text-transform: uppercase;
+    color:whitesmoke;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px whitesmoke;
+    color:rgb(162,0,37);
+
+    /* background-image:linear-gradient(to left,rgb(96,169,23),rgb(162,0,37)); */
+}
+
+.nav li button:hover
+{
+    background-color:rgb(162,0,37);
+    color: whitesmoke;
+    border: none;
+}
+
+.nav li:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* middle-section */
+
+#middle
+{
+    display: flex;
+    justify-content: center;
+    /* height: auto; */
+    /* border:1px solid red; */
+}
+
+.img-section
+{
+    /* border: 1px solid blue; */
+    height: 80vh;
+    width: 40vw;
+    background-image: linear-gradient(to right bottom, rgb(162,0,37), rgba(40, 180, 133, 0.8)), url(../images/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transform: rotate(5deg);
+    box-shadow: 6px 4px 4px rgb(109,135,100);
+}
+
+/* .img-section:hover
+{
+    transform: scale(1.05) rotate(10deg);
+    transition: 1s ease-in-out;
+} */
+
+.content-section
+{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 50vw;
+    margin-top: 10%;
+    
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    line-height: 80px;
+    font-size: 2.5rem;
+    height: auto;
+}
+
+
+/* section-facts */
+
+.middle-facts
+{
+    display: flex;
+    justify-content: space-between;
+    /* height: auto; */
+    /* border: 1px solid blue; */
+    background-color: rgb(162,0,37) ;
+}
+
+
+.middle-facts .fact1
+{
+    height: 100%;
+    /* width: 45%; */
+    /* border: 1px solid green; */
+    color: white;
+
+}
+
+.middle-facts .fact1-text
+{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    margin-top: 20px;
+}
+
+.middle-facts .fact1-75 
+{
+    font-size: 18rem;
+    text-align: center;
+}
+
+
+.middle-facts .fact1 ul li
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-top: 3%;
+    margin-left: 2.5%;
+    list-style: none;
+}
+
+
+.middle-facts .fact2
+{
+    color: white;
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid green; */
+    background-color: rgb(162,0,37) ;
+
+}
+
+.middle-facts .fact2-container
+{
+    display: flex;
+    padding:10px;
+}
+
+
+.middle-facts .fact2-card
+{
+    height: 70vh;
+    width: 32%;
+    margin-left: 10px;
+    /* border: 1px solid yellow; */
+}
+
+
+.middle-facts .fact2-card img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.middle-facts .fact2-card img:hover
+{
+    transform: scale(1.08);
+    transition: 1s ease-in-out;
+    border: 2px solid white;
+}
+
+/* feature container */
+
+#feature-container
+{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    /* background-color: rgb(162,0,37) ; */
+}
+
+.container-1
+{
+    width: 40%;
+    /* border: 1px solid red; */
+    background-image: url(../images/img9.png);
+    /* background-position: center; */
+    background-size:cover;
+    box-shadow: 2px 2px 12px rgb(109,135,100);
+}
+
+.container-2
+{
+    width: 55%;
+    /* border: 1px solid red; */
+    background-image: url(../images/img8.png);
+    /* background-position: center; */
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgb(109,135,100);
+}
+
+/* services */
+
+.service
+{
+    font-size: 6rem;
+    color:rgb(38,50,56);
+    background-color: rgb(238,238,238);
+    font-family: 'Alfa Slab One', cursive;
+}
+#service-section 
+{
+    display: flex;
+    padding:20px;
+    justify-content: space-evenly;
+    background-color: rgb(238,238,238);
+    font-family: 'Sacramento', cursive;
+}
+
+#service-section .service-container
+{
+    height: auto;
+    width: 20vw;
+    /* border:1px solid green; */
+    box-shadow: 3px 5px 2px rgb(158,158,158);
+}
+
+.service-container .logo
+{
+    font-size: 10rem;
+    color: rgb(162,0,37);
+}
+
+.service-container .btn
+{
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+
+.service-container:hover
+{
+    border: 3px solid rgb(162,0,37);
+    /* transform: scale(1.01);
+    transition: .5s ease-in-out; */
+}
+
+.service-container:hover .btn
+{
+    visibility: visible;
+    margin-bottom: ;
+}
+
+.service-container h1
+{
+    text-align: center;
+    font-size: 2.5rem;
+    color:rgb(38,50,56);
+}
+
+
+/* award section */
+
+.award-container
+{
+    display: flex;
+}
+
+.award-image
+{
+    height: auto;
+    width: 50%;
+    box-shadow: 2px 2px 3px rgb(158,158,158);
+    /* border: 1px solid rgb(162,0,37); */
+    background-image: url(../images/img6.jpg);
+    background-size: cover;
+}
+
+.award
+{
+    height: auto;
+    width: 50%;
+    /* border: 1px solid rgb(162,0,37); */
+    /* box-shadow: 2px 2px 3px rgb(158,158,158); */
+    display: flex;
+    justify-content: space-around;
+}
+
+.award .service-container:hover
+{
+    border: 3px solid rgb(162,0,37);
+    transform: scale(1);
+    transition: 1s ease-in-out;
+}
+
+/* client section */
+
+#client-section 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(238,238,238);
+}
+
+#client-section .service-container
+{
+    height: auto;
+    width: 20vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    /* border:1px solid green; */
+    box-shadow: 3px 5px 2px rgb(158,158,158);
+    font-family: 'Dancing Script', cursive;
+}
+
+.service-container .logo
+{
+    font-size: 8rem;
+    color: rgb(162,0,37);
+}
+
+#client-section .service-container:hover
+{
+    border: none;
+    transform: scale(1);
+    transition: .5s ease-in-out;
+    background-color: rgb(162,0,37);;
+}
+
+#client-section .service-container h2
+{
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(38,50,56);
+}
+
+
+#client-section .service-container:hover .logo
+{
+    color: whitesmoke;
+}
+
+#client-section .service-container:hover h1
+{
+    color: whitesmoke;
+}
+
+#client-section .service-container:hover h2
+{
+    color: whitesmoke;
+}
+
+
+#footer
+{
+    height: 50vh;
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: rgb(162,0,37);
+}
+
+#footer .div1,.div2
+{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid green; */
+}
+
+#footer .div1 li
+{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: .9rem;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#footer .div1 li:hover
+{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+#footer .div1 a i
+{
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+
+}
+
+
+#footer .div2 input
+{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    width: 30rem;
+    margin: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(38,50,56);
+    background-color: rgb(162,0,37);
+}
+#footer .div2 input:hover
+{
+    border-bottom: 2px solid rgb(38,50,56);
+}
+
+#footer .div2 .btn
+{
+    box-shadow: 2px 2px 2px rgb(109,135,100);
+}
+
+/* scroll button */
+
+
+#myBtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:rgb(175,6,6);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* comman class */
+
+.btn
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(162,0,37);
+    font-family: 'Monoton', cursive;
+    font-size: 1.5rem;
+    padding:10px;
+    line-height: 50px;
+}
+
+.btn:hover
+{
+    box-shadow: 6px 6px 2px rgb(109,135,100);
+}
+
+
+
+
+
