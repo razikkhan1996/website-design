@@ -78,8 +78,8 @@
 .img-section
 {
     /* border: 1px solid blue; */
-    height: 80vh;
-    width: 85vw;
+    height: 60vh;
+    width: 80vw;
     background-image: linear-gradient(to right bottom, rgb(162,0,37), rgba(40, 180, 133, 0.8)), url(../images/img2.jpg);
     background-size: cover;
     background-position: center;
